@@ -52,7 +52,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.rootURL = '/octdb/_design/octane-app/_rewrite/';
   }
 
   return ENV;
